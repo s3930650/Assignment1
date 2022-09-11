@@ -7,31 +7,31 @@ import Profile from './pages/Profile.vue'
 import Project from './pages/ProjectIdea.vue'
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/Assignment1/'),
     routes: [
         {
-            path: '/Assignment1/',
+            path: '/',
             component: Home,
             name: 'Home'
         },
         {
-            path: '/Assignment1/personal',
+            path: '/personal',
             component: PersonalInfo
         },
         {
-            path: '/Assignment1/idealJob',
+            path: '/idealJob',
             component: IdealJob
         },
         {
-            path: '/Assignment1/profile',
+            path: '/profile',
             component: Profile
         },
         {
-            path: '/Assignment1/project',
+            path: '/project',
             component: Project
         },
         {
-            path: '/Assignment1/interests',
+            path: '/interests',
             component: Interest
         }
     ]

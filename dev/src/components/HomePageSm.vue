@@ -11,11 +11,11 @@
         </button>
     </div>
     <ul :class="showMenu ? 'flex' : 'hidden'" class="flex-col mt-8 space-y-4 items-center">
-        <SmallLink to="/Assignment1//personal" title="Personal Information"/>
-        <SmallLink to="/Assignment1//profile" title="Profile"/>
-        <SmallLink to="/Assignment1//interests" title="Interests in IT"/>
-        <SmallLink to="/Assignment1//idealJob" title="Ideal Job"/>
-        <SmallLink to="/Assignment1//project" title="Project Idea"/>
+        <SmallLink to="/personal" title="Personal Information"/>
+        <SmallLink to="/profile" title="Profile"/>
+        <SmallLink to="/interests" title="Interests in IT"/>
+        <SmallLink to="/idealJob" title="Ideal Job"/>
+        <SmallLink to="/project" title="Project Idea"/>
         </ul>
 </template>
 

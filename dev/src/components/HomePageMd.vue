@@ -4,8 +4,8 @@ import LinkBubble from './LinkBubble.vue'
 <template>
         <div class="mx-auto h-screen md:flex flex-col justify-center group w-1/2 max-w-2xl">
             <div class="flex justify-between transition ease-in-out delay-150 opacity-0 group-hover:opacity-100 duration-300">
-                <LinkBubble to="/Assignment1//profile" title="Profile"/>
-                <LinkBubble to="/Assignment1//idealJob" title="Ideal Job"/>
+                <LinkBubble to="/profile" title="Profile"/>
+                <LinkBubble to="/idealJob" title="Ideal Job"/>
             </div>
             <div class="flex flex-col items-center justify-center rounded-full">
                 <img src="../assets/profile.jpg"
@@ -21,8 +21,8 @@ import LinkBubble from './LinkBubble.vue'
             </div>
 
             <div class="flex justify-between transition ease-in-out delay-150 opacity-0 group-hover:opacity-100 duration-300">
-                <LinkBubble to="/Assignment1/interests" title="Interests in IT"/>
-                <LinkBubble to="/Assignment1/project" title="Project Idea"/>
+                <LinkBubble to="/interests" title="Interests in IT"/>
+                <LinkBubble to="/project" title="Project Idea"/>
             </div>
         </div>
 </template>
