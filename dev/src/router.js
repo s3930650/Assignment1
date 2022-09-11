@@ -23,7 +23,7 @@ const router = createRouter({
             component: IdealJob
         },
         {
-            path: '/profile',
+            path: '/Assignment1/profile',
             component: Profile
         },
         {
