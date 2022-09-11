@@ -1,4 +1,4 @@
-import {createRouter, createWebHistory} from 'vue-router';
+import {createRouter, createWebHashHistory} from 'vue-router';
 import Home from './pages/HomePage.vue'
 import PersonalInfo from './pages/PersonalInfo.vue'
 import IdealJob from './pages/IdealJob.vue'
@@ -7,7 +7,7 @@ import Profile from './pages/Profile.vue'
 import Project from './pages/ProjectIdea.vue'
 
 const router = createRouter({
-    history: createWebHistory('/Assignment1/'),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
@@ -23,7 +23,7 @@ const router = createRouter({
             component: IdealJob
         },
         {
-            path: '/Assignment1/profile',
+            path: '/profile',
             component: Profile
         },
         {
