@@ -10,7 +10,7 @@ import LinkBubble from './LinkBubble.vue'
             <div class="flex flex-col items-center justify-center rounded-full">
                 <img src="../assets/profile.jpg"
                     class="border shadow-2xl object-cover rounded-full w-96 h-96 animate-pulse group-hover:hidden" />
-                <router-link to="/Assignment1//personal">
+                <router-link to="/personal">
                     <div class="bg-white items-center justify-center shadow-xl hover:shadow-2xl hover:font-semibold rounded-full w-96 h-96 hidden group-hover:flex text-2xl">
                         Personal Information
                     </div>
