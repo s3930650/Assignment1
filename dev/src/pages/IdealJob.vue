@@ -11,7 +11,7 @@ import Navigation from '../components/Navigation.vue';
         </div>
         <div class="rounded-2xl bg-white shadow-xl py-6 px-12 space-y-2">
             <a href="https://www.seek.com.au/job/58386138">
-                <img src="../assets/jobDescription.png" class="mx-auto shadow-md hover:shadow-xl" alt=".NET Developer - Launch Recruitment PTY LTD job advertisement" title=".NET Developer" />
+                <img src="../assets/jobDescription.png" class="mx-auto shadow-md hover:shadow-xl hover:scale-105" alt=".NET Developer - Launch Recruitment PTY LTD job advertisement" title=".NET Developer" />
             </a>
         </div>
         <div class="rounded-2xl bg-white shadow-xl py-6 px-12 space-y-2">
