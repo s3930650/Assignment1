@@ -1,9 +1,9 @@
 <script setup>
     import HomePageMd from '../components/HomePageMd.vue'
-    import HomePageSm from '../components/HomePageSm.vue'
+    import Personal from './PersonalInfo.vue'
 </script>
 
 <template>
  <HomePageMd class="hidden md:flex"/>
- <HomePageSm class="flex md:hidden"/>
+ <Personal class="flex md:hidden"/>
 </template>

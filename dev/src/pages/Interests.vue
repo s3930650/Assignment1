@@ -4,7 +4,7 @@ import SubHeading from '../components/SubHeading.vue';
 </script>
 <template>
     <Navigation />
-    <div class="text-sm flex flex-col w-2/3 mx-auto mb-6 space-x-1 space-y-2 max-w-6xl">
+    <div class="text-sm flex flex-col w-11/12 mx-auto mb-6 space-x-1 space-y-2 md:max-w-6xl">
         <div class="rounded-2xl bg-white shadow-xl">
             <h1 class="py-6 px-12 font-bold text-2xl text-gray-400">Interest In IT</h1>
         </div>
