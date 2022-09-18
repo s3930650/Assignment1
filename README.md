@@ -2,5 +2,5 @@
 
 Assignment 1 submisison for COSC2196
 
-Finished website is a bundled JavaScript single page application.
-Components are in the 'dev' folder.
+Source code for the project is within the dev > src folder.
+It's broken up into components and pages, found within directories labelled as so.
